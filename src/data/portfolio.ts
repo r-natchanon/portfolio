@@ -1,0 +1,22 @@
+export const portfolio = {
+  name: "Natchanon Ritthisak",
+  initials: "NR",
+  title: "Computer Engineering Student",
+  role: "Frontend Developer / Web Developer",
+  bio: "I’m a Computer Engineering student passionate about building modern web applications and solving real-world problems through technology. I’m currently looking for internship opportunities to grow through meaningful industry experience.",
+  email: "natchanon.ritthisak@gmail.com",
+  github: "https://github.com/r-natchanon",
+  linkedin: "https://linkedin.com/in/natchanonritthisak",
+  location: "Bangkok, Thailand",
+  university: "Udon Thani Rajabhat University",
+  degree: "Bachelor of Engineering",
+  major: "Computer Engineering",
+  studyPeriod: "2023 – Present",
+  year: "4th Year",
+  resume: "/resume/Resume.pdf",
+  stats: [
+    { label: "Projects completed", value: 4, suffix: "+" },
+    { label: "Technologies explored", value: 15, suffix: "+" },
+    { label: "Current study year", value: 4, suffix: "" },
+  ],
+};
