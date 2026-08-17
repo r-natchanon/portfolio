@@ -1,6 +1,7 @@
 "use client";
 
 import { Download, Menu, X } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 import { portfolio } from "@/data/portfolio";
 
@@ -12,11 +13,17 @@ export function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-[#202020] bg-[#050505]/95 shadow-[0_10px_40px_rgba(0,0,0,.45)] backdrop-blur-xl">
       <nav className="container-page flex h-[4.5rem] items-center justify-between" aria-label="Main navigation">
-        <a href="#home" className="group flex items-center gap-3 font-semibold tracking-[-.02em]" aria-label="Go to home">
-          <span className="grid size-9 place-items-center rounded-full border border-[#7fffd4]/45 bg-[#0b1713] text-[.68rem] font-black text-[#7fffd4] shadow-[0_0_24px_rgba(127,255,212,.08)] transition group-hover:border-[#7fffd4]">
-            {portfolio.initials}
+        <a href="#home" className="group block" aria-label="Go to home">
+          <span className="relative block h-10 w-28 overflow-hidden">
+            <Image
+              src="/images/brand-logo.png"
+              alt="Natchanon Ritthisak"
+              width={500}
+              height={500}
+              priority
+              className="absolute -left-[15px] -top-[45px] h-32 w-32 max-w-none transition-opacity group-hover:opacity-80"
+            />
           </span>
-          <span className="hidden text-[#f4f4ef] sm:inline">{portfolio.name}</span>
         </a>
 
         <div className="hidden items-center gap-6 lg:flex">

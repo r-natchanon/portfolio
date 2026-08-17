@@ -50,4 +50,15 @@ export const projects: Project[] = [
     image: "/images/projects/PreviewShare-Bill.png",
     details,
   },
+  {
+    title: "Personal Developer Portfolio",
+    description: "A modern, responsive developer portfolio showcasing web and mobile applications, technical skills, and interactive live demos for potential recruiters.",
+    technologies: ["React", "Next.js", "Tailwind CSS", "Node.js", "TypeScript"],
+    features: ["Features dynamic cards with direct links to live demos and GitHub source repositories.", "Designed with a mobile-first approach, fully optimized for all screen sizes and devices.", "Built using modern components for seamless navigation and fast page load speeds."],
+    githubUrl: "#",
+    demoUrl: "https://portfolio-sable-ten-wfeyeawkqo.vercel.app",
+    image: "/images/projects/PreviewPortfolio.png",
+    details,
+  },
 ];
+  
