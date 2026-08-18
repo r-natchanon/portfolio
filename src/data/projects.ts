@@ -46,7 +46,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase Storage", "Prisma ORM", "PostgreSQL"],
     features: ["Smart Bill Splitting: Calculate and split group expenses accurately with ease.", "Database Integration: Manage users, bills, and transactions using Supabase (PostgreSQL) and Prisma ORM.", "Payment & Slip Management: Upload and track payment receipts for transparent group tracking."],
     githubUrl: "https://github.com/r-natchanon/Share-Bill",
-    demoUrl: "https://share-bill-chi-brown.vercel.app/",
+    demoUrl: "https://share-bill-sandy.vercel.app/",
     image: "/images/projects/PreviewShare-Bill.png",
     details,
   },
